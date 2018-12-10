@@ -1,4 +1,7 @@
-# DAY1 JavaScript Drum Kit
+# DAY 1 JavaScript Drum Kit
+
+[Demo 地址](https://lab.lebenito.net/javascript30/01%20-%20JavaScript%20Drum%20Kit/)
+
 第一个挑战项目是使用 JavaScript 制作一个架子鼓页面，通过敲击键盘上相应字母的按键，打击出不同的声音，并且在页面上会伴随敲击显示相应动画。
 
 ## 分析需求
@@ -23,13 +26,13 @@ window.addEventListener('keydown', function(){});
 
 ```javascript
 function playSound(e) {
-    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-    const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
-    if (!audio) return;
-    if (!key) return;
+  const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+  const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+  if (!audio) return;
+  if (!key) return;
 
-    audio.currentTime = 0;
-    audio.play();
+  audio.currentTime = 0;
+  audio.play();
   }
 ```
 
