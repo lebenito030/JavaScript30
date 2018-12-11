@@ -61,6 +61,7 @@
       background: black;
       position: absolute;
       top: 50%; right: 50%;
+      border-radius: 10px;
       transform-origin: 100%;
       transform: rotate(90deg);
       transition: all 0.05s;
@@ -93,9 +94,9 @@
       const currentMin = now.getMinutes();
       const currentSecond = now.getSeconds();
 
-      const hourDegree = currentHour * 30 + 90;
-      const minDegree = currentMin * 6 + 90;
-      const secondDegree = currentSecond * 6 + 90;
+      const hourDegree = (currentHour * 30) + (currentMin / 2) + 90; //((currentHour / 12) * 360) + ((currentMin / 60) * 30) + 90;
+      const minDegree = (currentMin * 6) + (currentSecond / 10)  + 90; //((currentMin / 60) * 360) + ((currentSecond / 60) * 6) + 90;
+      const secondDegree = (currentSecond * 6) + 90;
 
       hourHand.style.transform = `rotate(${hourDegree}deg)`;
       minHand.style.transform = `rotate(${minDegree}deg)`;
