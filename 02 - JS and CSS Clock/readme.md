@@ -1,5 +1,5 @@
 # DAY 2 JS and CSS Clock
-[Demo 地址]()
+[Demo 地址](https://lab.lebenito.net/javascript30/02%20-%20JS%20and%20CSS%20Clock/)
 
 第二个挑战项目是制作一个时钟页面。（没错，就是很基础）
 
