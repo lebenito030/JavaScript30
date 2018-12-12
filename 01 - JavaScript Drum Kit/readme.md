@@ -82,7 +82,7 @@ window.addEventListener('keyup', removeTransition);
 [参考地址](https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/addEventListener)
 
 ```javascript
-target.addEventListener(type, listener, options]);
+target.addEventListener(type, listener[, options]);
 ```
 
 * `targe`：支持事件的对象。
