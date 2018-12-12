@@ -32,7 +32,7 @@ function playSound(e) {
 
   audio.currentTime = 0;
   audio.play();
-  }
+}
 ```
 
 然后在我们的监听器里调用这个方法。
