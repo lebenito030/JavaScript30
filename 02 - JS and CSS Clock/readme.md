@@ -135,3 +135,6 @@ console.log(`a + b = ${a + b}`); //15
 [参考地址](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
 创建 Date 实例用来处理日期和时间。
+
+----
+>这是一个由 [wesbos](https://github.com/wesbos) 发起的项目，这里是[项目地址](https://github.com/wesbos/JavaScript30)，感谢 [wesbos](https://github.com/wesbos) 制作了如此优秀的内容。
