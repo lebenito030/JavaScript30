@@ -1,5 +1,5 @@
 # DAY 4 Array Cardio Day 1
-[Demo 地址]()
+[Demo 地址](https://lab.lebenito.net/javascript30/04%20-%20Array%20Cardio%20Day%201/)
 
 第四个挑战是掌握 Array 的部分常用方法，主要使用 console 进行显示并不会在网页中直接显示。
 
