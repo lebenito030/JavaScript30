@@ -1,5 +1,5 @@
 # DAY 5 Flex Panel Gallery
-[Demo 地址]()
+[Demo 地址](https://lab.lebenito.net/javascript30/05%20-%20Flex%20Panel%20Gallery/)
 
 第五个挑战是使用 Flex 布局制作一个简单的展示页面，你可以在 Demo 地址中查看页面最终效果。
 
