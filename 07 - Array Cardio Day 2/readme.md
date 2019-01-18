@@ -1,5 +1,5 @@
 # DAY 7 Array Cardio Day 2
-[Demo 地址]()
+[Demo 地址](https://lab.lebenito.net/javascript30/07%20-%20Array%20Cardio%20Day%202/)
 
 第七个挑战是第四个挑战的衍生，我们同样是利用 Array 的原生方法去完成。
 
