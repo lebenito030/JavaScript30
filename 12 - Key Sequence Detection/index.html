@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+</head>
+<body>
+<script>
+  const inputRecord = [];
+  const bonusCode = 'AWSL';
+  window.addEventListener('keyup', (e) => {
+    inputRecord.push(e.key);
+    inputRecord.splice(-bonusCode.length - 1, inputRecord.length - bonusCode.length)
+    if(inputRecord.join('').includes(bonusCode)) {
+      alert('AWSL!');
+    }
+  });
+</script>
+</body>
+</html>
