@@ -1,17 +1,18 @@
-# DAY 15 --- LocalStroage
+# DAY 15 --- localStorage
+[Demo 地址](https://lab.lebenito.net/javascript30/15%20-%20LocalStorage/index.html)
 
-第十五个练习是使用 [LocalStroage](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/localStorage) 保存我们的 Todolist 的数据，以方便在刷新之后内容不会被清空。
+第十五个练习是使用 [localStorage](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/localStorage) 保存我们的 Todolist 的数据，以方便在刷新之后内容不会被清空。
 
 ## 步骤拆分
 
-1. 完善变量部分，让 `items` 在 LocalStroage 中有所需值时将其作为设定值
-2. 给 `add-items` 添加调用的方法，点击后添加一个 `item` 到 LocalStroage 中储存
-3. 更改 checkbox 的 checked 状态，并同步更新 LocalStroage 中的数据
+1. 完善变量部分，让 `items` 在 localStorage 中有所需值时将其作为设定值
+2. 给 `add-items` 添加调用的方法，点击后添加一个 `item` 到 localStorage 中储存
+3. 更改 checkbox 的 checked 状态，并同步更新 localStorage 中的数据
 4. 完成各个事件的绑定监听
 
 ## 第一步
 
-我们需要判断 `items` 在 LocalStroage 中是否已有值。
+我们需要判断 `items` 在 localStorage 中是否已有值。
 
 ```javascript
 const addItems = document.querySelector('.add-items');
